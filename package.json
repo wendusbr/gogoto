@@ -1,0 +1,26 @@
+{
+  "name": "gogoto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gogoto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "go",
+    "js",
+    "ts",
+    "javascript",
+    "typescript",
+    "request",
+    "response",
+    "error",
+    "utility",
+    "json",
+    "promise"
+  ],
+  "author": "Wendell Bernardo <wendus.dev@gmail.com> https://github.com/wendusbr",
+  "license": "MIT"
+}
