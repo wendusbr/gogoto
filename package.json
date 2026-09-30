@@ -22,5 +22,9 @@
     "promise"
   ],
   "author": "Wendell Bernardo <wendus.dev@gmail.com> https://github.com/wendusbr",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wendusbr/gogoto.git"
+  }
 }
