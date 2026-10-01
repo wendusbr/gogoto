@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Packed tarballs (npm pack)
+*.tgz
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Caches
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

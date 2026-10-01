@@ -16,13 +16,14 @@ async function go(url, configs) {
       method: configs.method.toUpperCase(),
       headers: {
         Accept: 'application/json',
-        'Content-Type': configs.body ? 'application/json' : undefined,
+        ...(configs.body ? { 'Content-Type': 'application/json' } : {}),
         ...(configs.headers ?? {}),
       },
       body: configs.body ? JSON.stringify(configs.body) : undefined,
     })
 
-    const resJson = await res.json()
+    const resText = await res.text()
+    const resJson = resText ? JSON.parse(resText) : null
 
     if (!res.ok) {
       const err = new Error(`${res.status} ${res.statusText}`)
